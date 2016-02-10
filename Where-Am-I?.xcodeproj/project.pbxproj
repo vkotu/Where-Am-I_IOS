@@ -14,6 +14,8 @@
 		E10A51F71C6AFBD9006F2C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10A51F51C6AFBD9006F2C58 /* LaunchScreen.storyboard */; };
 		E10A52021C6AFBD9006F2C58 /* Where_Am_I_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A52011C6AFBD9006F2C58 /* Where_Am_I_Tests.swift */; };
 		E10A520D1C6AFBD9006F2C58 /* Where_Am_I_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A520C1C6AFBD9006F2C58 /* Where_Am_I_UITests.swift */; };
+		E10A521B1C6AFE36006F2C58 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A521A1C6AFE35006F2C58 /* MapKit.framework */; };
+		E10A521D1C6AFE77006F2C58 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A521C1C6AFE77006F2C58 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E10A52081C6AFBD9006F2C58 /* Where-Am-I?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where-Am-I?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10A520C1C6AFBD9006F2C58 /* Where_Am_I_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_I_UITests.swift; sourceTree = "<group>"; };
 		E10A520E1C6AFBD9006F2C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10A521A1C6AFE35006F2C58 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E10A521C1C6AFE77006F2C58 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10A521D1C6AFE77006F2C58 /* CoreLocation.framework in Frameworks */,
+				E10A521B1C6AFE36006F2C58 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		E10A51E01C6AFBD9006F2C58 = {
 			isa = PBXGroup;
 			children = (
+				E10A521C1C6AFE77006F2C58 /* CoreLocation.framework */,
+				E10A521A1C6AFE35006F2C58 /* MapKit.framework */,
 				E10A51EB1C6AFBD9006F2C58 /* Where-Am-I? */,
 				E10A52001C6AFBD9006F2C58 /* Where-Am-I?Tests */,
 				E10A520B1C6AFBD9006F2C58 /* Where-Am-I?UITests */,
